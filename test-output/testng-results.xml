@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify sign in link Sign In]]>
+    </line>
+    <line>
+      <![CDATA[Enter user email  and enter priem123@email.com]]>
+    </line>
+    <line>
+      <![CDATA[Enter user password  and enter prime123]]>
+    </line>
+    <line>
+      <![CDATA[Click on sign in button Sign in]]>
+    </line>
+    <line>
+      <![CDATA[Verify error message Invalid email or password.]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="16740" started-at="2022-12-12T17:00:39 IST" finished-at="2022-12-12T17:00:56 IST">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@3578436e]" name="verifyTheErrorMessage" class="com.ultimateqa.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@3578436e]" name="verifyTheErrorMessage" class="com.ultimateqa.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="16740" started-at="2022-12-12T17:00:39 IST" finished-at="2022-12-12T17:00:56 IST">
+      <class name="com.ultimateqa.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@3578436e]" name="setUp" is-config="true" duration-ms="10093" started-at="2022-12-12T17:00:40 IST" finished-at="2022-12-12T17:00:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@3578436e]" name="inIt" is-config="true" duration-ms="32" started-at="2022-12-12T17:00:50 IST" finished-at="2022-12-12T17:00:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@3578436e]" name="verifyTheErrorMessage" duration-ms="5407" started-at="2022-12-12T17:00:50 IST" finished-at="2022-12-12T17:00:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify sign in link Sign In]]>
+            </line>
+            <line>
+              <![CDATA[Enter user email  and enter priem123@email.com]]>
+            </line>
+            <line>
+              <![CDATA[Enter user password  and enter prime123]]>
+            </line>
+            <line>
+              <![CDATA[Click on sign in button Sign in]]>
+            </line>
+            <line>
+              <![CDATA[Verify error message Invalid email or password.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.testsuite.LoginPageTest@3578436e]" name="tearDown" is-config="true" duration-ms="819" started-at="2022-12-12T17:00:55 IST" finished-at="2022-12-12T17:00:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimateqa.testsuite.LoginPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
